@@ -79,4 +79,21 @@
   width: 100;
   -o-object-fit: contain !important;
      object-fit: contain !important;
+}
+
+#slider {
+  background-color: red;
+}
+#slider div {
+  height: 400px;
+  width: 100vw;
+  background-color: blue;
+  padding: 0;
+  margin: 0;
+}
+#slider div img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: stretch;
 }/*# sourceMappingURL=customstyle.css.map */

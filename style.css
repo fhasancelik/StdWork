@@ -4,7 +4,13 @@
     overflow-x:hidden ;
     box-sizing: border-box;
 }
+body{
+    height: 100vh;
 
+}
+#blackline{
+    height: 2rem;
+}
 
 .black-line{
     background-color: black;
@@ -14,6 +20,16 @@
  
     max-height: max-content;
 
+}
+
+#ads-banner{
+    height: 10rem;
+    background-color: gray;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
 }
 img{
 width: 100%;
